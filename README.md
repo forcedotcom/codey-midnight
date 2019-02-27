@@ -1,4 +1,4 @@
-##Codey Midnight Theme for VS Code
+## Codey Midnight Theme for VS Code
 ![Codey Midnight Theme in Action](./docs/Theme_Action.png)
 
 A custom theme for VS Code, designed for Salesforce development. Built to be accessible and boost developer productivity. 
