@@ -1,0 +1,22 @@
+{   
+    "publisher" : "zaynet",
+    "name": "codey-midnight",
+    "displayName": "Codey Midnight",
+    "description": "Dark theme configured for accessibility and Salesforce development",
+    "version": "1.0.0",
+    "engines": {
+        "vscode": "^1.30.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Codey Midnight",
+                "uiTheme": "vs-dark",
+                "path": "./themes/CodeyMidnight.json"
+            }
+        ]
+    }
+}
