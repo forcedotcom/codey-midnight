@@ -14,3 +14,7 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 ### Changed
 - Repo location and name
 - Theme name to 'Codey Midnight'
+
+## [1.0.1] - 5/2019
+### Added
+- Support for Typescript
