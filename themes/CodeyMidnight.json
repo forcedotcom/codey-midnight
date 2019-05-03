@@ -141,6 +141,20 @@
 			}
 		},
 		{
+			"name": "Boolean Vals",
+			"scope": [
+				"constant.language.boolean.true.js",
+				"constant.language.boolean.false.js",
+				"constant.language.boolean.true.ts",
+				"constant.language.boolean.false.ts",
+				"constant.language.boolean.true.apex",
+				"constant.language.boolean.false.apex"
+			],
+			"settings": {
+				"foreground": "#19B5FE"	
+			}
+		},
+		{
 			"name" : "JS Decorators",
 			"scope": [
 				"meta.decorator.js"
@@ -152,7 +166,10 @@
 		{
 			"name": "JS Imports",
 			"scope": [
-				"meta.import.js"
+				"meta.import.js",
+				"meta.export.js",
+				"meta.import.ts",
+				"meta.export.ts"
 			],
 			"settings": {
 				"foreground": "#1E90FF"	
@@ -164,7 +181,11 @@
 				"keyword.control.import.js",
 				"keyword.control.from.js",
 				"keyword.control.export.js",
-				"keyword.control.conditional"
+				"keyword.control.conditional",
+				"keyword.type.apex",
+				"keyword.other.class.apex",
+				"keyword.control.import.ts",
+				"keyword.control.export.ts"
 			],
 			"settings": {
 				"foreground": "#52B3D9"
@@ -215,7 +236,9 @@
 				"meta.definition.method.js",
 				"meta.method.declaration.js",
 				"meta.function-call.js",
-				"entity.name.function.apex"
+				"meta.function-call.ts",
+				"entity.name.function.apex",
+				"meta.function.expression.ts"
 			],
 			"settings": {
 				"foreground": "#00BFFF"
@@ -228,7 +251,13 @@
 				"meta.parameters.js",
 				"meta.objectliteral.js",
 				"meta.block.js",
-				"entity.name.variable.parameter.apex"
+				"meta.block.ts",
+				"entity.name.variable.parameter.apex",
+				"meta.definition.variable.ts",
+				"variable.other.object.ts",
+				"meta.var.expr.ts",
+				"variable.other.readwrite.ts",
+				"meta.var.expr.ts"
 			],
 			"settings": {
 				"foreground": "#E0FFFF"
