@@ -1,9 +1,22 @@
-{   
-    "publisher" : "zaynet",
+{
+    "publisher": "salesforce",
     "name": "codey-midnight",
     "displayName": "Codey Midnight",
     "description": "Dark theme configured for accessibility and Salesforce development",
     "version": "1.0.0",
+    "icon": "images/icon.png",
+    "license": "BSD-3-Clause",
+    "qna": false,
+    "bugs": {
+        "url": "https://github.com/zaynelt/codey-midnight/issues"
+    },
+    "repository": {
+        "url": "https://github.com/zaynelt/codey-midnight"
+    },
+    "galleryBanner": {
+        "color": "#ECECEC",
+        "theme": "light"
+    },
     "engines": {
         "vscode": "^1.30.0"
     },
