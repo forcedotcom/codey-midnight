@@ -33,3 +33,9 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 -   Updated README
 -   Published to marketplace
+
+## [1.0.5] - 5/2019
+
+### Added
+
+-   New Icon
