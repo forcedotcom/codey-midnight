@@ -26,3 +26,10 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 ### Added
 
 -   Support for Typescript
+
+## [1.0.4] - 5/2019
+
+### Added
+
+-   Updated README
+-   Published to marketplace
