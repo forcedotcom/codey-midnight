@@ -3,7 +3,7 @@
     "name": "codey-midnight",
     "displayName": "Codey Midnight",
     "description": "Dark theme configured for accessibility and Salesforce development",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "icon": "images/icon.png",
     "license": "BSD-3-Clause",
     "qna": false,
