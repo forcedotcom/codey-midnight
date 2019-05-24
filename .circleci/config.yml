@@ -1,0 +1,28 @@
+#
+version: 2
+jobs:
+    build:
+        docker:
+            - image: circleci/node:10.2.0
+
+        steps:
+            - checkout
+            - restore_cache:
+                  key: dependency-cache-{{ checksum "package.json" }}
+            - run: npm install
+            - run: npm run vscode:package
+            - run:
+                  command: |
+                      mkdir extensions
+                      find . -name "*.vsix" -type f -exec cp {} ./extensions \;
+            - store_artifacts:
+                  path: ./extensions
+            - save_cache:
+                  key: dependency-cache-{{ checksum "package.json" }}
+                  paths:
+                      - node_modules
+workflows:
+    version: 2
+    commit-workflow:
+        jobs:
+            - build

@@ -31,5 +31,11 @@
                 "path": "./themes/CodeyMidnight.json"
             }
         ]
+    },
+    "scripts": {
+        "vscode:package": "vsce package"
+    },
+    "devDependencies": {
+        "vsce": "^1.62.0"
     }
 }
