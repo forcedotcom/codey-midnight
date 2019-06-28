@@ -50,10 +50,10 @@
 				"foreground": "#000080"
 			}
 		},
-		{
+		{		
 			"scope": "comment",
 			"settings": {
-				"foreground": "#6A9955"
+				"foreground": "#807D67"
 			}
 		},
 		{
@@ -557,12 +557,6 @@
 			"scope": "token.debug-token",
 			"settings": {
 				"foreground": "#BF5EEC"
-			}
-		},
-		{
-			"scope": "comment",
-			"settings": {
-				"foreground": "#ffecdb"
 			}
 		},
 		{
