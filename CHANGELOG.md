@@ -39,3 +39,9 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 ### Added
 
 -   New Icon
+
+## [1.0.6] - 6/2019
+
+### Changed
+
+-   Upped contrast for comments
