@@ -118,7 +118,7 @@
 				"foreground": "#f9bf3b"
 			}
 		},
-		{
+		{	"name": "CSS attributes",
 			"scope": [
 				"entity.other.attribute-name.class.css",
 				"entity.other.attribute-name.class.mixin.css",
@@ -463,7 +463,7 @@
 				"foreground": "#ececec"
 			}
 		},
-		{
+		{	"name": "CSS Supports",
 			"scope": [
 				"support.type.vendored.property-name",
 				"support.type.property-name",
@@ -473,7 +473,7 @@
 				"source.coffee.embedded"
 			],
 			"settings": {
-				"foreground": "#c5eff7"
+				"foreground": "#00e0e0"
 			}
 		},
 		
