@@ -36,6 +36,6 @@
         "vscode:package": "vsce package"
     },
     "devDependencies": {
-        "vsce": "^1.62.0"
+        "vsce": "^2.15.0"
     }
 }
